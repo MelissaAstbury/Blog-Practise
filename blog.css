@@ -1,0 +1,35 @@
+.container {
+  margin: 0 auto;
+  border: rgb(162, 159, 159) solid 15px;
+  padding: 10px 15px;
+  max-width: 750px;
+}
+
+p {
+  letter-spacing: 1.77px;
+  font-family: "Poppins", sans-serif;
+}
+
+.date-header {
+  color: rgb(100, 159, 232);
+}
+
+.date-header:not(:first-child) {
+  padding-top: 16px;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 2px;
+}
+
+.first-paragraph {
+  border-left: 4px solid rgb(180, 180, 180);
+  padding-left: 15px;
+  /* border-bottom: 2px solid rgb(221, 221, 221); */
+}
+
+.underlined-paragraph:not(:last-child) {
+  border-bottom: 2px solid rgb(221, 221, 221);
+  padding-bottom: 30px;
+}
